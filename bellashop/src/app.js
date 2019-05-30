@@ -2,6 +2,7 @@
 import CONSTANTS from './scripts/apps/constants';
 import { Route, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
+import Header from './components/headers/header';
 
 const mapStateToProps = state => {
     return {
@@ -27,7 +28,9 @@ class AppConnected extends React.Component {
 
     render() {
         return (
-            <div>Hello people</div>
+            <div className="wrapper">
+                <Header />
+            </div>
         );
     }
 }

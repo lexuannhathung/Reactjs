@@ -5,16 +5,16 @@ var gulpsync = require('gulp-sync')(gulp);
 var autoprefix = new LessAutoprefix({ browsers: ['last 2 versions'] });
 
 gulp.task('less', function() {
-   return gulp.src('./src/styles/less/style.less').pipe(less({
+   return gulp.src('./public/styles/less/style.less').pipe(less({
            plugins: [autoprefix]
        }))
-       .pipe(gulp.dest('./src/styles/less'));
+       .pipe(gulp.dest('./public/styles/less'));
 });
 
 gulp.task('watch', gulpsync.sync([
     'less'
 ]), function () {
-    gulp.watch(['./src/styles/less/*.less'], ['less']);
+        gulp.watch(['./public/styles/less/*.less'], ['less']);
 });
 
 gulp.task('default', ['watch']);

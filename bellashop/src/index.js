@@ -1,6 +1,4 @@
 import * as serviceWorker from './serviceWorker';
-import './styles/libs/bootstrap-4.0.0.css';
-import './styles/less/style.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
