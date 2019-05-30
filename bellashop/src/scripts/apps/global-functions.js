@@ -19,6 +19,9 @@ const GLOBAL_FUNCTIONS = new function () {
         }
         return target;
     }
+    this.SetTitle = function (title) {
+        document.title = title;
+    }
 }
 
 export default GLOBAL_FUNCTIONS;

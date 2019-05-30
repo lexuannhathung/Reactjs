@@ -1,3 +1,5 @@
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 import * as serviceWorker from './serviceWorker';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -15,7 +17,7 @@ class Main extends React.Component {
             <Provider store={store}>
                 <BrowserRouter>
                     <Switch>
-                        <Route path={CONSTANTS.NAVIGATION_URL.HOME} component={App} />
+                        <Route path={CONSTANTS.NAVIGATION_URL.INDEX} component={App} />
                     </Switch>
                 </BrowserRouter>
             </Provider>
