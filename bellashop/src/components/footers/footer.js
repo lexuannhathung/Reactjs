@@ -36,40 +36,40 @@ class FooterConnected extends React.Component {
 
     render() {
         return (
-            <footer class="footer">
-                <div class="footer-widgets">
-                    <div class="container">
-                        <div class="row">
+            <footer className="footer">
+                <div className="footer-widgets">
+                    <div className="container">
+                        <div className="row">
 
-                            <div class="col-md-3">
-                                <div class="widget">
-                                    <h4 class="widget-title">About Us</h4>
+                            <div className="col-md-3">
+                                <div className="widget">
+                                    <h4 className="widget-title">About Us</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin ultrices suscipit. Sed commodo vel mauris vel dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <ul class="social-icons">
-                                        <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                    <ul className="social-icons">
+                                        <li><a href="#" className="facebook"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="#" className="twitter"><i className="fa fa-twitter"></i></a></li>
+                                        <li><a href="#" className="instagram"><i className="fa fa-instagram"></i></a></li>
+                                        <li><a href="#" className="pinterest"><i className="fa fa-pinterest"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="widget">
-                                    <h4 class="widget-title">News Letter</h4>
+                            <div className="col-md-3">
+                                <div className="widget">
+                                    <h4 className="widget-title">News Letter</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     <form action="#">
-                                        <div class="form-group">
-                                            <input class="form-control" type="text" placeholder="Enter Your Mail and Get $10 Cash" />
+                                        <div className="form-group">
+                                            <input className="form-control" type="text" placeholder="Enter Your Mail and Get $10 Cash" />
                                         </div>
-                                        <div class="form-group">
-                                            <button class="btn btn-theme btn-theme-transparent">Subscribe</button>
+                                        <div className="form-group">
+                                            <button className="btn btn-theme btn-theme-transparent">Subscribe</button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="widget widget-categories">
-                                    <h4 class="widget-title">Information</h4>
+                            <div className="col-md-3">
+                                <div className="widget widget-categories">
+                                    <h4 className="widget-title">Information</h4>
                                     <ul>
                                         <li><a href="#">About Us</a></li>
                                         <li><a href="#">Delivery Information</a></li>
@@ -79,9 +79,9 @@ class FooterConnected extends React.Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="widget widget-tag-cloud">
-                                    <h4 class="widget-title">Item Tags</h4>
+                            <div className="col-md-3">
+                                <div className="widget widget-tag-cloud">
+                                    <h4 className="widget-title">Item Tags</h4>
                                     <ul>
                                         <li><a href="#">Gadgets</a></li>
                                         <li><a href="#">Electronic</a></li>
@@ -101,15 +101,15 @@ class FooterConnected extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div class="footer-meta">
-                    <div class="container">
-                        <div class="row">
+                <div className="footer-meta">
+                    <div className="container">
+                        <div className="row">
 
-                            <div class="col-sm-6">
-                                <div class="copyright">Copyright 2014 BELLA SHOP   |   All Rights Reserved   |   Designed & Developed By <a href="https://jthemes.com" target="_blank" title="Top HTML Templates">Jthemes Studio</a></div>
+                            <div className="col-sm-6">
+                                <div className="copyright">Copyright 2014 BELLA SHOP   |   All Rights Reserved   |   Designed & Developed By <a href="https://jthemes.com" target="_blank" title="Top HTML Templates">Jthemes Studio</a></div>
                             </div>
-                            <div class="col-sm-6">
-                                <div class="payments">
+                            <div className="col-sm-6">
+                                <div className="payments">
                                     <ul>
                                         <li><img src="styles/img/preview/payments/visa.jpg" alt="" /></li>
                                         <li><img src="styles/img/preview/payments/mastercard.jpg" alt="" /></li>
