@@ -8,6 +8,8 @@ import GLOBAL_FUNCTIONS from '../../scripts/apps/global-functions';
 import HomeHeader from './home-header';
 import HomeTopSeller from './home-top-seller';
 import HomeTopRate from './home-top-rate';
+import HomeCurrentPost from './home-current-post';
+import HomeFooter from './home-footer';
 
 const mapStateToProps = state => {
     return {
@@ -44,6 +46,8 @@ class HomeConnected extends React.Component {
                 <HomeHeader />
                 <HomeTopSeller />
                 <HomeTopRate />
+                <HomeCurrentPost />
+                <HomeFooter />
             </div>
         );
     }

@@ -99,8 +99,8 @@ class HeaderConnected extends React.Component {
                         <div className="container">
                             <nav className="navigation closed clearfix">
                                 <a href="#" className="menu-toggle-close btn"><i className="fa fa-times"></i></a>
-                                <ul className="nav sf-menu">
-                                    <li className="active"><a href="index.html">Homepage</a>
+                                <ul className="nav sf-menu sf-arrows">
+                                    <li className="active"><a className="sf-with-ul" href="index.html">Homepage</a>
                                         <ul>
                                             <li><a href="index.html">Homepage 1</a></li>
                                             <li><a href="index-2.html">Homepage 2</a></li>
@@ -113,7 +113,7 @@ class HeaderConnected extends React.Component {
                                             <li><a href="index-9.html">Homepage 9</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="category.html">Shop</a>
+                                    <li><a className="sf-with-ul" href="category.html">Shop</a>
                                         <ul>
                                             <li><a href="category.html">Shop Sidebar Left</a></li>
                                             <li><a href="category-right.html">Shop Sidebar Right</a></li>
@@ -121,14 +121,14 @@ class HeaderConnected extends React.Component {
                                             <li><a href="product-details.html">Product Page</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Blog</a>
+                                    <li><a className="sf-with-ul" href="#">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Blog Sidebar Left </a></li>
                                             <li><a href="blog-right.html">Blog Sidebar Right</a></li>
                                             <li><a href="blog-post.html">Blog Single Post</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="portfolio.html">Portfolio</a>
+                                    <li><a className="sf-with-ul" href="portfolio.html">Portfolio</a>
                                         <ul>
                                             <li><a href="portfolio.html">Portfolio 3 columns</a></li>
                                             <li><a href="portfolio-4col.html">Portfolio 4 columns</a></li>

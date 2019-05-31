@@ -53,8 +53,6 @@ class HomeTopRateConnected extends React.Component {
                             loop
                             margin={30}
                             autoWidth={true}
-                            items={6}
-                            videoWidth={165}
                         >
                             <StandardItem />
                             <StandardItem />
