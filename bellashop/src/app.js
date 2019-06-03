@@ -35,7 +35,7 @@ class AppConnected extends React.Component {
                 <Header />
                 <div className="content-area">
                     <Route path={CONSTANTS.NAVIGATION_URL.HOME} component={Home} />
-                    <Route path={CONSTANTS.NAVIGATION_URL.PRODUCT_DETAIL} component={ProductDetail} />
+                    <Route path={CONSTANTS.NAVIGATION_URL.PRODUCT_DETAIL + "/:id?"} component={ProductDetail} />
                 </div>
                 <Footer />
             </div>

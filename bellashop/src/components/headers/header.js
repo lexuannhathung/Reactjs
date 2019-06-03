@@ -41,8 +41,8 @@ class HeaderConnected extends React.Component {
                     <div className="container">
                         <div className="top-bar-left">
                             <ul className="list-inline">
-                                <li className="icon-user"><a href="login.html"><img src="styles/img/icon-1.png" alt="" /> <span>Login</span></a></li>
-                                <li className="icon-form"><a href="login.html"><img src="styles/img/icon-2.png" alt="" /> <span>Not a Member? <span className="colored">Sign Up</span></span></a></li>
+                                <li className="icon-user"><a href="login.html"><img src="/styles/img/icon-1.png" alt="" /> <span>Login</span></a></li>
+                                <li className="icon-form"><a href="login.html"><img src="/styles/img/icon-2.png" alt="" /> <span>Not a Member? <span className="colored">Sign Up</span></span></a></li>
                                 <li><a href="mailto:support@yourdomain.com"><i className="fa fa-envelope"></i> <span>support@yourdomain.com</span></a></li>
                             </ul>
                         </div>
@@ -63,11 +63,11 @@ class HeaderConnected extends React.Component {
                                     </ul>
                                 </li>
                                 <li className="dropdown flags">
-                                    <a href="#" className="dropdown-toggle" data-toggle="dropdown"><img src="styles/img/flag.gif" alt="" /> Eng<i className="fa fa-angle-down"></i></a>
+                                    <a href="#" className="dropdown-toggle" data-toggle="dropdown"><img src="/styles/img/flag.gif" alt="" /> Eng<i className="fa fa-angle-down"></i></a>
                                     <ul role="menu" className="dropdown-menu">
-                                        <li><a href="#"><img src="styles/img/flag.gif" alt="" /> Eng</a></li>
-                                        <li><a href="#"><img src="styles/img/flag.gif" alt="" /> Eng</a></li>
-                                        <li><a href="#"><img src="styles/img/flag.gif" alt="" /> Eng</a></li>
+                                        <li><a href="#"><img src="/styles/img/flag.gif" alt="" /> Eng</a></li>
+                                        <li><a href="#"><img src="/styles/img/flag.gif" alt="" /> Eng</a></li>
+                                        <li><a href="#"><img src="/styles/img/flag.gif" alt="" /> Eng</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -78,7 +78,7 @@ class HeaderConnected extends React.Component {
                     <div className="header-wrapper">
                         <div className="container">
                             <div className="logo">
-                                <a href="index.html"><img src="styles/img/logo-bella-shop.png" alt="Bella Shop" /></a>
+                                <a href="index.html"><img src="/styles/img/logo-bella-shop.png" alt="Bella Shop" /></a>
                             </div>
                             <div className="header-search">
                                 <input className="form-control" type="text" placeholder="What are you looking?" />
@@ -200,7 +200,7 @@ class HeaderConnected extends React.Component {
                                                     <div className="product-list">
                                                         <div className="media">
                                                             <a className="pull-left media-link" href="#">
-                                                                <img className="media-object" src="styles/img/preview/shop/top-sellers-2.jpg" alt="" />
+                                                                <img className="media-object" src="/styles/img/preview/shop/top-sellers-2.jpg" alt="" />
                                                                 <i className="fa fa-plus"></i></a>
                                                             <div className="media-body">
                                                                 <h4 className="media-heading"><a href="#">Electronic Product Header</a></h4>
@@ -216,7 +216,7 @@ class HeaderConnected extends React.Component {
                                                         </div>
                                                         <div className="media">
                                                             <a className="pull-left media-link" href="#">
-                                                                <img className="media-object" src="styles/img/preview/shop/top-sellers-3.jpg" alt="" />
+                                                                <img className="media-object" src="/styles/img/preview/shop/top-sellers-3.jpg" alt="" />
                                                                 <i className="fa fa-plus"></i>
                                                             </a>
                                                             <div className="media-body">

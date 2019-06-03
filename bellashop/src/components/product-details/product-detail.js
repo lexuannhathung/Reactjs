@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import { connect } from 'react-redux';
-import { withRouter } from 'react-router-dom';
+import { Route, withRouter } from 'react-router-dom';
 import rootAction from '../../actions/action';
 import CONSTANTS from '../../scripts/apps/constants';
 import GLOBAL_VARIABLES from '../../scripts/apps/global-variables';
@@ -35,9 +35,10 @@ class ProductDetailConnected extends React.Component {
     }
 
     render() {
+        let { match } = this.props;
         return (
             <div id="product-detail-page">
-                detail
+                detail {match.params.id}
             </div>
         );
     }

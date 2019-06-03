@@ -39,7 +39,7 @@ class HomeHeaderConnected extends React.Component {
                             <div className="thumbnail no-border no-padding thumbnail-banner size-3x3">
                                 <div className="media">
                                     <a className="media-link" href="#">
-                                        <div className="img-bg" style={{ backgroundImage: "url('styles/img/preview/shop/banner-3.jpg')" }}></div>
+                                        <div className="img-bg" style={{ backgroundImage: "url('/styles/img/preview/shop/banner-3.jpg')" }}></div>
                                         <div className="caption">
                                             <div className="caption-wrapper div-table">
                                                 <div className="caption-inner div-cell">
@@ -57,7 +57,7 @@ class HomeHeaderConnected extends React.Component {
                             <div className="thumbnail no-border no-padding thumbnail-banner size-2x3">
                                 <div className="media">
                                     <a className="media-link" href="#">
-                                        <div className="img-bg" style={{ backgroundImage: "url('styles/img/preview/shop/banner-4.jpg')" }}></div>
+                                        <div className="img-bg" style={{ backgroundImage: "url('/styles/img/preview/shop/banner-4.jpg')" }}></div>
                                         <div className="caption text-right">
                                             <div className="caption-wrapper div-table">
                                                 <div className="caption-inner div-cell">
@@ -73,7 +73,7 @@ class HomeHeaderConnected extends React.Component {
                             <div className="thumbnail no-border no-padding thumbnail-banner size-2x3">
                                 <div className="media">
                                     <a className="media-link" href="#">
-                                        <div className="img-bg" style={{ backgroundImage: "url('styles/img/preview/shop/banner-5.jpg')" }}></div>
+                                        <div className="img-bg" style={{ backgroundImage: "url('/styles/img/preview/shop/banner-5.jpg')" }}></div>
                                         <div className="caption">
                                             <div className="caption-wrapper div-table">
                                                 <div className="caption-inner div-cell">

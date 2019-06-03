@@ -34,7 +34,6 @@ class HomeConnected extends React.Component {
 
     //events
 
-
     //functions
     Init() {
         GLOBAL_FUNCTIONS.SetTitle("Home");
