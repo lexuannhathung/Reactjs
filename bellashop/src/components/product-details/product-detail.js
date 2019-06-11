@@ -4,6 +4,12 @@ import { Route, withRouter } from 'react-router-dom';
 import rootAction from '../../actions/action';
 import CONSTANTS from '../../scripts/apps/constants';
 import GLOBAL_VARIABLES from '../../scripts/apps/global-variables';
+import ProductDetailAvatar from './product-detail-avatar';
+import ProductDetailInfo from './product-detail-info';
+import ShopInfoBanner from '../shared/shop-info-banner';
+import ProductDetailReview from './product-detail-review';
+import ProductDetailRelatedProduct from './product-detail-related-product';
+import BrandClient from '../shared/brand-client';
 
 const mapStateToProps = state => {
     return {
@@ -38,7 +44,22 @@ class ProductDetailConnected extends React.Component {
         let { match } = this.props;
         return (
             <div id="product-detail-page">
-                detail {match.params.id}
+                <section class="page-section">
+                    <div class="container">
+                        <div className="row product-single">
+                            <div className="col-md-6">
+                                <ProductDetailAvatar />
+                            </div>
+                            <div className="col-md-6">
+                                <ProductDetailInfo />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <ShopInfoBanner />
+                <ProductDetailReview />
+                <ProductDetailRelatedProduct />
+                <BrandClient />
             </div>
         );
     }

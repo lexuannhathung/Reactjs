@@ -2,8 +2,9 @@ body {
   font-family: Lato;
 }
 body.boxed {
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
+/*-- START owl-carousel ---*/
 .owl-carousel .owl-dots {
   display: none;
 }
@@ -20,3 +21,33 @@ body.boxed {
 .owl-carousel .owl-next {
   padding-left: 5px;
 }
+.featured-products-carousel .owl-nav {
+  display: none;
+}
+.product-single .owl-carousel .owl-nav {
+  margin: 0 !important;
+}
+.product-single .owl-carousel .owl-nav [class*=owl-] {
+  position: absolute;
+  top: 50%;
+  margin: -20px 0 0 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  font-size: 30px;
+  line-height: 30px;
+  border: solid 3px #232323;
+  background: transparent;
+  color: #232323;
+}
+.product-single .owl-carousel .owl-nav [class*=owl-] span {
+  color: #000;
+}
+.product-single .owl-carousel .owl-nav .owl-prev {
+  left: 30px;
+}
+.product-single .owl-carousel .owl-nav .owl-next {
+  right: 30px;
+}
+/*-- END owl-carousel ---*/

@@ -33,7 +33,7 @@ class SmallStandardItemConnected extends React.Component {
         return (
             <div className="media">
                 <a className="pull-left media-link" href="#">
-                    <img className="media-object" src="styles/img/preview/shop/top-sellers-7.jpg" alt="" />
+                    <img className="media-object" src="/styles/img/preview/shop/top-sellers-7.jpg" alt="" />
                     <i className="fa fa-plus"></i>
                 </a>
                 <div className="media-body">

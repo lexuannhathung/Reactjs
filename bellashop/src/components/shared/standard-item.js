@@ -33,8 +33,8 @@ class StandardItemConnected extends React.Component {
         return (
             <div className="thumbnail no-border no-padding">
                 <div className="media">
-                    <a className="media-link" data-gal="prettyPhoto" href="styles/img/preview/shop/product-1-big.jpg">
-                        <img src="styles/img/preview/shop/product-1.jpg" alt="" />
+                    <a className="media-link" data-gal="prettyPhoto" href="/styles/img/preview/shop/product-1-big.jpg">
+                        <img src="/styles/img/preview/shop/product-1.jpg" alt="" />
                         <span className="icon-view"><strong><i className="fa fa-eye"></i></strong></span>
                     </a>
                 </div>
