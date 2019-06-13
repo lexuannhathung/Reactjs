@@ -44,8 +44,8 @@ class ProductDetailConnected extends React.Component {
         let { match } = this.props;
         return (
             <div id="product-detail-page">
-                <section class="page-section">
-                    <div class="container">
+                <section className="page-section">
+                    <div className="container">
                         <div className="row product-single">
                             <div className="col-md-6">
                                 <ProductDetailAvatar />
